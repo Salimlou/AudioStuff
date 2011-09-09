@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9FA348D141AB70A00566216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9FA348C141AB70A00566216 /* Cocoa.framework */; };
+		C9FA3497141AB70A00566216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C9FA3495141AB70A00566216 /* InfoPlist.strings */; };
+		C9FA349A141AB70A00566216 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FA3499141AB70A00566216 /* main.m */; };
+		C9FA349D141AB70A00566216 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = C9FA349B141AB70A00566216 /* Credits.rtf */; };
+		C9FA34A0141AB70A00566216 /* AudioStuffAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FA349F141AB70A00566216 /* AudioStuffAppDelegate.m */; };
+		C9FA34A3141AB70B00566216 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C9FA34A1141AB70B00566216 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C9FA3488141AB70A00566216 /* AudioStuff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioStuff.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9FA348C141AB70A00566216 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		C9FA348F141AB70A00566216 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		C9FA3490141AB70A00566216 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C9FA3491141AB70A00566216 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C9FA3494141AB70A00566216 /* AudioStuff-Info.plist */ = {isa = PBXFileReference; path = "AudioStuff-Info.plist"; sourceTree = "<group>"; };
+		C9FA3496141AB70A00566216 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C9FA3498141AB70A00566216 /* AudioStuff-Prefix.pch */ = {isa = PBXFileReference; path = "AudioStuff-Prefix.pch"; sourceTree = "<group>"; };
+		C9FA3499141AB70A00566216 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C9FA349C141AB70A00566216 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		C9FA349E141AB70A00566216 /* AudioStuffAppDelegate.h */ = {isa = PBXFileReference; path = AudioStuffAppDelegate.h; sourceTree = "<group>"; };
+		C9FA349F141AB70A00566216 /* AudioStuffAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioStuffAppDelegate.m; sourceTree = "<group>"; };
+		C9FA34A2141AB70B00566216 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9FA3485141AB70A00566216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9FA348D141AB70A00566216 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9FA347D141AB70A00566216 = {
+			isa = PBXGroup;
+			children = (
+				C9FA3492141AB70A00566216 /* AudioStuff */,
+				C9FA348B141AB70A00566216 /* Frameworks */,
+				C9FA3489141AB70A00566216 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9FA3489141AB70A00566216 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9FA3488141AB70A00566216 /* AudioStuff.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9FA348B141AB70A00566216 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9FA348C141AB70A00566216 /* Cocoa.framework */,
+				C9FA348E141AB70A00566216 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9FA348E141AB70A00566216 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9FA348F141AB70A00566216 /* AppKit.framework */,
+				C9FA3490141AB70A00566216 /* CoreData.framework */,
+				C9FA3491141AB70A00566216 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		C9FA3492141AB70A00566216 /* AudioStuff */ = {
+			isa = PBXGroup;
+			children = (
+				C9FA349E141AB70A00566216 /* AudioStuffAppDelegate.h */,
+				C9FA349F141AB70A00566216 /* AudioStuffAppDelegate.m */,
+				C9FA34A1141AB70B00566216 /* MainMenu.xib */,
+				C9FA3493141AB70A00566216 /* Supporting Files */,
+			);
+			path = AudioStuff;
+			sourceTree = "<group>";
+		};
+		C9FA3493141AB70A00566216 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C9FA3494141AB70A00566216 /* AudioStuff-Info.plist */,
+				C9FA3495141AB70A00566216 /* InfoPlist.strings */,
+				C9FA3498141AB70A00566216 /* AudioStuff-Prefix.pch */,
+				C9FA3499141AB70A00566216 /* main.m */,
+				C9FA349B141AB70A00566216 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9FA3487141AB70A00566216 /* AudioStuff */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9FA34A6141AB70B00566216 /* Build configuration list for PBXNativeTarget "AudioStuff" */;
+			buildPhases = (
+				C9FA3484141AB70A00566216 /* Sources */,
+				C9FA3485141AB70A00566216 /* Frameworks */,
+				C9FA3486141AB70A00566216 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioStuff;
+			productName = AudioStuff;
+			productReference = C9FA3488141AB70A00566216 /* AudioStuff.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9FA347F141AB70A00566216 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C9FA3482141AB70A00566216 /* Build configuration list for PBXProject "AudioStuff" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9FA347D141AB70A00566216;
+			productRefGroup = C9FA3489141AB70A00566216 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9FA3487141AB70A00566216 /* AudioStuff */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C9FA3486141AB70A00566216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9FA3497141AB70A00566216 /* InfoPlist.strings in Resources */,
+				C9FA349D141AB70A00566216 /* Credits.rtf in Resources */,
+				C9FA34A3141AB70B00566216 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9FA3484141AB70A00566216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9FA349A141AB70A00566216 /* main.m in Sources */,
+				C9FA34A0141AB70A00566216 /* AudioStuffAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C9FA3495141AB70A00566216 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9FA3496141AB70A00566216 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C9FA349B141AB70A00566216 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9FA349C141AB70A00566216 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		C9FA34A1141AB70B00566216 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C9FA34A2141AB70B00566216 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C9FA34A4141AB70B00566216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C9FA34A5141AB70B00566216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C9FA34A7141AB70B00566216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioStuff/AudioStuff-Prefix.pch";
+				INFOPLIST_FILE = "AudioStuff/AudioStuff-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C9FA34A8141AB70B00566216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AudioStuff/AudioStuff-Prefix.pch";
+				INFOPLIST_FILE = "AudioStuff/AudioStuff-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9FA3482141AB70A00566216 /* Build configuration list for PBXProject "AudioStuff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9FA34A4141AB70B00566216 /* Debug */,
+				C9FA34A5141AB70B00566216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9FA34A6141AB70B00566216 /* Build configuration list for PBXNativeTarget "AudioStuff" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9FA34A7141AB70B00566216 /* Debug */,
+				C9FA34A8141AB70B00566216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9FA347F141AB70A00566216 /* Project object */;
+}
